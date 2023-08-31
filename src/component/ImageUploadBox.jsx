@@ -22,15 +22,7 @@ const ImageUploadBox = ({ handleFileChange, fileName }) => {
 
   return (
     <div
-      style={{
-        textAlign: "center",
-        width: 1000,
-        marginLeft: "auto",
-        marginRight: "auto",
-        backgroundColor: "white",
-        padding: "25px",
-        borderRadius: "10px",
-      }}
+      className={classes.imageUploadBox}
     >
       <div
         style={{

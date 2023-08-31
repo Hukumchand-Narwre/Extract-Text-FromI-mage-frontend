@@ -9,6 +9,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #eaeaea;
+  overflow-x: hidden;
+  padding: 10px;
 }
 
 button {
