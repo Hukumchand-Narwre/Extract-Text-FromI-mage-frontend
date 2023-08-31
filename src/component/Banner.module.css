@@ -1,0 +1,15 @@
+.header {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 2rem;
+}
+.header h1 {
+  padding-bottom: 1rem;
+}
+.header p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}

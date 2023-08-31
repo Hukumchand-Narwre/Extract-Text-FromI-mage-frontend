@@ -1,10 +1,11 @@
-import AccessCamera from "./AccessCamera";
 import "./App.css";
-import UploadImage from "./UploadImage";
+import Banner from "./component/Banner";
+import UploadImage from "./component/UploadImage";
 
 function App() {
   return (
     <>
+      <Banner />
       <UploadImage />
     </>
   );
