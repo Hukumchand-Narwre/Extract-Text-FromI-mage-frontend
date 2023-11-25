@@ -1,14 +1,12 @@
 import "./App.css";
 import Banner from "./component/Banner";
-import TextBox from "./component/TextBox";
 import UploadImage from "./component/UploadImage";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
       <Banner />
       <UploadImage />
-      {/* <TextBox/> */}
     </>
   );
 }

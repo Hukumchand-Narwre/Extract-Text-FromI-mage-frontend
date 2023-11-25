@@ -1,14 +1,22 @@
-import React from 'react'
-import classes from './TextBox.module.css';
-const TextBox = () => {
+import React, { useRef } from "react";
+import classes from "./TextBox.module.css";
+import copy from "copy-to-clipboard";
+const TextBox = ({ displayText }) => {
+  const copyToClipboard = () => {
+    copy(displayText);
+    alert(`You have copied "${displayText}"`);
+  };
+
   return (
     <>
-    <div className={classes.copyBox}>
-        <div>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
-    </div>
-        <button className={classes.button}>Extract Key Phrases</button>
+      <div style={{ width: "100%", maxWidth: "800px", height: "auto" }} className={classes.copyBox}>
+        <div>{displayText}</div>
+      </div>
+      <button onClick={copyToClipboard} className={classes.button}>
+        Copy to clipboard
+      </button>
     </>
-  )
-}
+  );
+};
 
-export default TextBox
+export default TextBox;

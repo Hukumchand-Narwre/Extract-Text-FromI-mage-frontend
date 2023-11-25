@@ -3,6 +3,7 @@ import { BlobServiceClient } from "@azure/storage-blob";
 import { sendUrltoBackend } from "../utility/sendUrltoBackend";
 import Loader from "./Loader";
 import ImageUploadBox from "./ImageUploadBox";
+import TextBox from "./TextBox";
 
 const connectionString = import.meta.env.VITE_CONNECTION_STRING;
 const containerName = import.meta.env.VITE_CONTTAINER_NAME;
@@ -27,6 +28,7 @@ function UploadImage() {
       const text1 = await sendUrltoBackend(blockBlobClient.url);
       setDisplayText(text1);
     } catch (error) {
+      alert("something went wrong try again later");
       console.log(error);
     } finally {
       setisLoading(false);
@@ -36,7 +38,7 @@ function UploadImage() {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
       {displayText ? (
-        <div>{displayText}</div>
+        <TextBox displayText={displayText} />
       ) : (
         <>
           {" "}
