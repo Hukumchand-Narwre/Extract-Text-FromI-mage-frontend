@@ -25,6 +25,10 @@ Working with OCR technology for the first time posed challenges in terms of unde
 
 #### Installation:
 ```bash
-clone project using - 
+clone project using - https://github.com/Hukumchand-Narwre/Extract-Text-FromI-mage-frontend.git
 npm install
- 
+
+
+### Run the app using
+```bash
+ npm run dev
