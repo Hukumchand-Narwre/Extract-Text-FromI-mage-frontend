@@ -16,6 +16,9 @@ Integrating Azure Cloud for the storage of images was a new experience, and I ha
 
 Working with OCR technology for the first time posed challenges in terms of understanding the API documentation, handling image formats, and interpreting the output.
 
+## Backend Development with Node.js
+#### Challenge:
+Developing the backend in Node.js required addressing challenges related to routing, handling HTTP requests, and integrating with the Azure Storage and OCR services.
 ## Technology Used
 
 ### Vite for Installing React
@@ -29,6 +32,8 @@ clone project using - https://github.com/Hukumchand-Narwre/Extract-Text-FromI-ma
 npm install
 
 
+```
 ### Run the app using
 ```bash
  npm run dev
+```
