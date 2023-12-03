@@ -19,21 +19,49 @@ Integrating Azure Cloud for the storage of images was a new experience, and I ha
 Working with OCR technology for the first time posed challenges in terms of understanding the API documentation, handling image formats, and interpreting the output.
 
 Developing the backend in Node.js required addressing challenges related to routing, handling HTTP requests, and integrating with the Azure Storage and OCR services.
-## Technology Used
+![Untitled-2023-10-29-1048](https://github.com/Hukumchand-Narwre/Extract-Text-FromI-mage-frontend/assets/85044429/ee2f2c55-acb2-40ca-b73c-5cfa80f54aa1)
 
-### Vite for Installing React
+# Technologies Used
 
-#### Description:
-[Vite](https://vitejs.dev/) was used as the build tool to create a fast and efficient React application. Vite provides a modern development experience with features like lightning-fast HMR (Hot Module Replacement) and optimized production builds.
+- **React.js:** The project is built on React.js
+- **Azure Blob Storage:** Blob Storage is designed for serving images or documents directly to a browser.
+- **Azure OCR:** Azure OCR, or Optical Character Recognition, is a powerful tool for automatically converting images of text into machine-readable data.
+- **Express.js:** Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js
 
-#### Installation:
+## Local Installation Guide
+
+Follow these steps to set up the project on your local machine:
+
+- **Prerequisites -**
+Ensure you have Node.js installed:
+
+You can download and install Node.js from https://nodejs.org/
+
+**Installation steps**
+- **1. Clone the repository**
 ```bash
-clone project using - https://github.com/Hukumchand-Narwre/Extract-Text-FromI-mage-frontend.git
-npm install
-
-
+git clone [https://github.com/Hukumchand-Narwre/trello.git](https://github.com/Hukumchand-Narwre/Extract-Text-FromI-mage-frontend.git)
 ```
-### Run the app using
+- **2. Navigate to project directory**
+```bash
+cd trello
+```
+- **3. Install dependencies**
+```bash
+npm install
+```
+- **4. Configure environment variables:**
+Create the .env file in root directory of the project  and create the following variables.
+```bash
+AZURE_KEY = 
+AZURE_ENDPOINT =
+
+AZURE_ENDPOINT_AI_LANGUAGE = 
+AZURE_KEY_AI_LANGUAGE = 
+```
+Update the variables with your keys.
+- **5. Run the project**
 ```bash
  npm run dev
 ```
+
