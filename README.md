@@ -1,23 +1,23 @@
-# Project Name
+# Problem Statement
 
-*Text Extraction from Images(Using Azure OCR Technology)*
+Typing out text from images is a hassle, slowing down work and causing errors. This project uses Azure OCR to make life easier. Upload an image, get the text – no more manual typing, just quick and accurate results. It's all about saving time and improving accuracy for everyone who deals with text from images
 
-## Description
+## Target Customers
 
-This project utilizes Azure OCR technology to extract text from images. It can be useful for scenarios where automated text extraction is required, such as digitizing documents or processing images with textual content.
+- Individuals who deal with paperwork and need to extract text from documents regularly.
+- Individuals who may find it challenging to type or prefer a more convenient method for extracting text from images.
+- People involved in data entry tasks, especially those dealing with information from scanned documents or images.
 
 ## Demo
 
 URL - https://extract-text-from-image.netlify.app/
 
-## Challenges Faced
+## Project Summary
 
 Integrating Azure Cloud for the storage of images was a new experience, and I had to navigate through Azure's documentation to understand the process of setting up and configuring Azure Storage.
 
 Working with OCR technology for the first time posed challenges in terms of understanding the API documentation, handling image formats, and interpreting the output.
 
-## Backend Development with Node.js
-#### Challenge:
 Developing the backend in Node.js required addressing challenges related to routing, handling HTTP requests, and integrating with the Azure Storage and OCR services.
 ## Technology Used
 
