@@ -44,7 +44,7 @@ git clone https://github.com/Hukumchand-Narwre/TextCapture-Pro.git
 ```
 - **2. Navigate to project directory**
 ```bash
-cd trello
+cd TextCapture-Pro
 ```
 - **3. Install dependencies**
 ```bash
