@@ -25,8 +25,7 @@ Developing the backend in Node.js required addressing challenges related to rout
 
 # Technologies Used
 
-- **React.js:** React is a popular JavaScript library used for building user interfaces. It allows developers to create reusable components and to efficiently update the UI in     
-response to changes in application state.
+- **React.js:** React is a popular JavaScript library used for building user interfaces. It allows developers to create reusable components and to efficiently update the UI in response to changes in application state.
   
 - **Azure Blob Storage:** Blob Storage is designed for serving images or documents directly to a browser.
   
