@@ -19,12 +19,14 @@ Integrating Azure Cloud for the storage of images was a new experience, and I ha
 Working with OCR technology for the first time posed challenges in terms of understanding the API documentation, handling image formats, and interpreting the output.
 
 Developing the backend in Node.js required addressing challenges related to routing, handling HTTP requests, and integrating with the Azure Storage and OCR services.
+
+**Component Tree Diagram**
 ![Untitled-2023-10-29-1048](https://github.com/Hukumchand-Narwre/Extract-Text-FromI-mage-frontend/assets/85044429/ee2f2c55-acb2-40ca-b73c-5cfa80f54aa1)
 
 # Technologies Used
 
 - **React.js:** React is a popular JavaScript library used for building user interfaces. It allows developers to create reusable components and to efficiently update the UI in     
-                response to changes in application state.
+response to changes in application state.
   
 - **Azure Blob Storage:** Blob Storage is designed for serving images or documents directly to a browser.
   
