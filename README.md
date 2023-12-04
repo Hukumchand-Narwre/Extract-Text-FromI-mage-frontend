@@ -23,9 +23,13 @@ Developing the backend in Node.js required addressing challenges related to rout
 
 # Technologies Used
 
-- **React.js:** The project is built on React.js
+- **React.js:** React is a popular JavaScript library used for building user interfaces. It allows developers to create reusable components and to efficiently update the UI in     
+                response to changes in application state.
+  
 - **Azure Blob Storage:** Blob Storage is designed for serving images or documents directly to a browser.
+  
 - **Azure OCR:** Azure OCR, or Optical Character Recognition, is a powerful tool for automatically converting images of text into machine-readable data.
+  
 - **Express.js:** Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js
 
 ## Local Installation Guide
