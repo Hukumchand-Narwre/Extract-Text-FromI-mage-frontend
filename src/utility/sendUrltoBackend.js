@@ -1,5 +1,5 @@
 export async function sendUrltoBackend(url) {
-  const res = await fetch(import.meta.env.VITE_API, {
+  const res = await fetch("https://extract-text-from-image-backend.vercel.app/api/v1/getImage", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
