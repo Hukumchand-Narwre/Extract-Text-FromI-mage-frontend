@@ -1,5 +1,5 @@
 export async function sendUrltoBackend(url) {
-  const res = await fetch("http://127.0.0.1:3000/api/v1/getImage", {
+  const res = await fetch(import.meta.env.VITE_API, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
